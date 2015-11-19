@@ -1,0 +1,25 @@
+parameters:
+  key_name: adminkey
+  image: rhel71
+  flavor: m1.small
+  external_network: external_network
+  dns_nameserver: [8.8.4.4,8.8.8.8]
+  #node_count: 2
+  rhn_username: "qa@redhat.com"
+  rhn_password: "QMdMJ8jvSWUwB6WZ"
+  rhn_pool: ''
+  #deployment_type: enterprise
+  domain_name: "example.com"
+  hostname: "ns"
+  #dns_hostname: "ns"
+  #master_hostname: "openshift-master"
+  #node_hostname_prefix: "openshift-node"
+  ssh_user: cloud-user
+  #master_docker_volume_size_gb: 5
+  #node_docker_volume_size_gb: 5
+  ipa_ds_password: "RedHat1234"
+  ipa_master_password: "RedHat1234"
+  ipa_admin_password: "RedHat1234"
+  ipa_realm_name: "EXAMPLE.COM"
+  ipa_domain_name: "example.com"
+  timeout: 60
